@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std; 
+double promedio(double a, double b, double c){
+	return (a+b+c)/3;
+}
 int main(){
 	double nota1, nota2, nota3, prom;
 	cout<<"Ingrese su primera nota: "<<endl;
@@ -8,7 +11,7 @@ int main(){
 	cin>>nota2;
 	cout<<"Ingrese su tercera nota: "<<endl;
 	cin>>nota3;
-	prom=(nota1+nota2+nota3)/3;
+	prom=promedio(nota1, nota2, nota3);
 	if (prom>=70){
 	   cout<<"Aprobado"<<endl;
     }else{
