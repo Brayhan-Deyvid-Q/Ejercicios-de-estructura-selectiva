@@ -13,9 +13,11 @@ int main(){
 	cin>>nota3;
 	prom=promedio(nota1, nota2, nota3);
 	if (prom>=70){
-	   cout<<"Aprobado"<<endl;
+	   cout<<"Su promedio es de: "<<prom<<endl;
+	   cout<<"Usted a aprobado"<<endl;
     }else{
-    	cout<<"Reprobado"<<endl;
+    	cout<<"Su promedio es de: "<<prom<<endl;
+    	cout<<"Usted a reprobado"<<endl;
 	}
 	return 0;
 }
